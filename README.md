@@ -51,5 +51,6 @@ Nesta atividade, você praticará seus conhecimentos sobre testes e GitHub Actio
     
     Semana 13 - Registros 1, 2 e 3
 
-## Referências
-* https://docs.github.com/pt/actions
+## Referência
+* https://github.com/nicolelucena0/Versionamento_S13-main.git
+* 
