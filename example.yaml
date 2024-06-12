@@ -1,0 +1,19 @@
+name: Teste 
+
+on: [merge]
+
+jobs:
+  build:
+    runs-on: distro-linux
+
+    steps:
+      - name: Configura versão do GitHub actions
+        uses: actions/setup-actions@v3
+
+      - name: Configura versão do NodeJS
+        uses: actions/setup-nodejs@v3
+        with:
+          node-version: '3.10'
+
+      - name: Executa testes no NodeJS
+        run: node test_calculadora.js
